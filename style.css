@@ -1,0 +1,43 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Helvetica', sans-serif; 
+}
+
+body{ 
+    background-color: black; 
+    color: seashell; 
+}
+/*nav bar */
+.nav__container{ 
+    
+    border-bottom: 1px solid seashell; 
+
+    height: 69px; 
+
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{ 
+    margin-left: 10px; 
+    margin-bottom: 0px; 
+    height: 50px; 
+}
+
+.nav__container ul{ 
+    
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.nav__container ul > li{
+    margin-right: 1em; 
+    text-decoration: underline; 
+}
+
+
