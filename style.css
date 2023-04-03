@@ -51,6 +51,10 @@ p{
     text-decoration: underline; 
 }
 
+.nav__container ul > li > a{
+    color: seashell; 
+    font-size: 1.25rem; 
+}
 /* mission styling */
 .mission__container{ 
     background-image: url(images/img-mission-background.jpg); 
@@ -74,7 +78,22 @@ p{
     align-items: center; 
 }
 
+.text__container > h2{
+    margin-bottom: 1rem; 
+}
+
+
 /*tea product styling*/
+.tea__header{ 
+    text-align: center;
+    margin-top: 3rem; 
+    margin-bottom: 0.5rem; 
+}
+
+.tea__header > h2{
+    margin: 1rem; 
+}
+
 .product__container{
     width: 1000px; 
     display: flex; 
@@ -94,6 +113,64 @@ p{
 .photo__container{ 
     margin: 1rem; 
 }
+
 .product__label{
     text-align: center; 
+    margin-top: 1rem; 
 }
+
+/*location container styling*/
+.location__container{
+    margin-top: 3rem; 
+    background-image: url(images/img-locations-background.jpg);
+ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    width: 1200px; 
+    height: 500px; 
+}
+
+.location__container > h2{ 
+    font-size: 2rem; 
+}
+.address__container{
+    margin-top: 15px; 
+    display: flex; 
+    justify-content: space-evenly; 
+
+}
+
+.address{
+    height: 300px; 
+    width: 300px; 
+    margin-right: 40px; 
+    background-color: black; 
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.address > p{
+    font-weight: normal; 
+    font-size: 1rem; 
+    margin: 1rem; 
+}
+
+/* footer styling */
+.footer__container{
+    height: 200px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    padding-bottom: 2rem; 
+    width: 1200px; 
+}
+
