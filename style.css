@@ -1,5 +1,5 @@
 *{ 
-    margin: 0 auto; 
+    margin: 0;
     padding: 0; 
     box-sizing: border-box; 
     font-family: 'Helvetica', sans-serif; 
@@ -8,6 +8,10 @@
 body{ 
     background-color: black; 
     color: seashell; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
 }
 
 p{ 
@@ -24,6 +28,7 @@ p{
 
     display: flex; 
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
    
 }
@@ -86,6 +91,9 @@ p{
     align-content: center; 
 }
 
+.photo__container{ 
+    margin: 1rem; 
+}
 .product__label{
     text-align: center; 
 }
